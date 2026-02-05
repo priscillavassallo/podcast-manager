@@ -26,14 +26,7 @@ Listar os episódios de podcast em sessões de categoria
 Vou retornar em uma API REST para que consiga alimentar um front-end (nome do podcast, nome do episódio, uma imagem de capa, link, categoria)
 
 ```js
-[
-  {
-    podcastName: "flow",
-    episode: "CBUM – Flow #319",
-    videoId: "pQSuQmUfS30",
-    cover: "https://i.ytimg.com/vi/pQSuQmUfS30/maxresdefault.jpg",
-    link: "https://www.youtube.com/watch?v=pQSuQmUfS30",
-    category: ["saúde", "fitness"],
-  },
-];
+
 ```
+
+GET: retorna lista de episódios baseado em um parâmetro enviado pelo client do nome do podcast
